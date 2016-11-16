@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  FMDB_demo
+//
+//  Created by xx on 16/11/16.
+//  Copyright © 2016年 d.d. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "NSString+File.h"
+#import "DBHandler.h"
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self
+
+#endif /* PrefixHeader_pch */
